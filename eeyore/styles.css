@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  background-color: rgba(241, 234, 171, 0.7);
+  text-align: center;
+  font-size: 22px;
+  padding: 0 20px;
+}
+
+title,
+header,
+footer {
+  width: auto;
+  background-color: rgba(210, 170, 240, 0.8);
+  border-radius: 1em;
+  padding: 5px;
+}
+
+h1,
+h2 {
+  font-family: "Nerko One", cursive, sans-serif;
+}
+
+.box0 {
+  text-align: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 25px;
+  padding-bottom: 10px;
+}
+
+nav ul li {
+  display: inline;
+  background-color: rgba(206, 162, 240, 0.4);
+  text-decoration: none;
+  font-size: 1.4em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 10px;
+}
+
+nav ul li a:link {
+  font-weight: bold;
+  color: rgba(241, 234, 171, 0.7);
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: rgb(57, 17, 143);
+}
+
+nav ul li a:hover {
+  color: rgba(135, 78, 254, 0.8);
+  border-bottom: 1px solid purple;
+  border-left: 5px solid purple;
+}
+
+nav ul li a:active {
+  background-color: purple;
+}
+
+article {
+  margin: 20px;
+}
+
+img {
+  width: 70%;
+  border-radius: 1.5em;
+  margin: 20px;
+}
+
+footer h5 {
+  font: italic;
+  font-size: small;
+}
+.liefde img {
+  width: 40%;
+  border-radius: 1.5em;
+  margin: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 p {
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 25px;
+  background: pink;
+  line-height: 1.3em;
+  border: 5px dashed purple;
+  border-radius: 30px;
+  box-shadow: 0 0 0 4px pink, 2px;
+}
+form {
+  align-items: center;
+  padding: 10px;
+  margin: 0 100px;
+  margin-bottom: 20px;
+  background: pink;
+  border: 5px dashed purple;
+  border-radius: 30px;
+  box-shadow: 0 0 0 4px pink, 2px;
+}
